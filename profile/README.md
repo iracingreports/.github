@@ -36,11 +36,18 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA schema GRANT SELECT ON tables TO pound0837;
 \q
 ```
 
+- clone website repo and setup django
+
 ```
 git clone git@github.com:iracingreports/website.git
 cd /home/fuz/website
+python3.12 -m venv .venv
+. .venv/bin/activate/fish
+pip install -r requirements/production.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py collectstatic
-mkdir /home/fuz/iracingreports/website/staticfiles/tmp
+mkdir /home/fuz/website/staticfiles/tmp
+export DJANGO_SETTINGS_MODULE=config.settings.production
+architect partition --module iracing_reports.iracing.models
 ```
