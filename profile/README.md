@@ -2,7 +2,7 @@
 
 ![iRacing Reports Discord Bot banner](iracing_reports_banner_screenshots_930.png)
 
-Serve official iRacing series updates, stat cards, and live results straight to your Discord channels. The iRacing Reports bot keeps drivers and teams informed in real time using the same data that powers https://iracingreports.com. We focus exclusively on official races—no league session noise, ever.
+Serve official iRacing series updates, stat cards, and live results straight to your Discord channels. The iRacing Reports bot keeps drivers and teams informed in real time using the same data that powers https://iracingreports.com.
 
 ## Why Teams Love It
 - Live race alerts and podium recaps land in-channel within seconds of official results posting.
@@ -17,6 +17,7 @@ Serve official iRacing series updates, stat cards, and live results straight to 
 - `/laps` renders pace charts and stint comparisons from the latest official sessions.
 - `/balance` highlights car and track trends, helping teams prep for the next week.
 - The full command reference stays current at https://discordbot.iracingreports.com/commands.
+
 
 
 
